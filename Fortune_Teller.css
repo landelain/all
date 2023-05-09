@@ -1,0 +1,173 @@
+/*  STATIC  */
+
+body {
+    background-color: black;
+}
+img {
+    z-index: -5;
+    display: inline-block;
+    height: 100dvh;
+    width: 100dvw;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+}
+#contain{
+    display: flex;
+    flex-direction: row;
+}
+#contain div {   
+    z-index: 10;
+    display: inline-block;
+}
+#lobby_button{
+    background-color: rgba(189, 124, 18, 0.3);
+    border: 2px black solid;
+    border-radius: 5px;
+    margin-top: 85dvh;
+    margin-left: 2dvw;
+    height: fit-content;
+    width: 15dvw;
+    position: fixed;
+    text-align: center;
+    padding-top: 3dvh;
+    padding-bottom: 3dvh;
+    color: black;
+    font-size: 2dvw;
+}
+#lobby_button:hover {
+    background-color: rgba(189, 124, 18, 0.45);
+}
+
+/*  CHOICE  */
+
+.contain {
+    height: fit-content;
+    width: 40dvw;
+    position: fixed;
+    margin-top: 10dvh;
+    margin-left: 30dvw;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding-top: 4dvh;
+    padding-bottom: 4dvh;
+    padding-left: 1dvw;
+    padding-right: 1dvw;
+    font-size: 2dvw;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+#choice1 {
+    height: fit-content;
+    width: 20dvw;
+    padding-top: 4dvh;
+    padding-bottom: 4dvh;
+    position: fixed;
+    margin-top: 62dvh;
+    margin-left: 20dvw;
+    display: inline-block;
+    background-color: rgba(255, 226, 226, 0.6);
+    border: 2px black solid;
+    border-radius: 10px;
+    font-size: 2dvw;
+    text-align: center;
+}
+#choice1:hover{
+    background-color: rgba(254, 208, 208, 0.6);
+    border: 2px gold solid;
+    cursor:grab;
+}
+#choice2 {
+    height: fit-content;
+    padding-top: 4dvh;
+    padding-bottom: 4dvh;
+    width: 20dvw;
+    position: fixed;
+    margin-top: 62dvh;
+    margin-left: 43dvw;
+    display: inline-block;
+    background-color: rgba(255, 226, 226, 0.6);
+    border: 2px black solid;
+    border-radius: 10px;
+    font-size: 2dvw;
+    text-align: center;
+}
+#choice2:hover {
+    background-color: rgba(254, 208, 208, 0.6);
+    border: 2px gold solid;
+    cursor:grab;
+}
+#quitchoice {
+    height: fit-content;
+    width: 15dvw;
+    padding-top: 4dvh;
+    padding-bottom: 4dvh;
+    position: fixed;
+    margin-top: 62dvh;
+    margin-left: 66dvw;
+    display: inline-block;
+    background-color: rgba(255, 226, 226, 0.6);
+    border: 2px black solid;
+    border-radius: 10px;
+    font-size: 2dvw;
+    text-align: center;
+}
+#quitchoice:hover {
+    background-color: rgba(254, 208, 208, 0.6);
+    border: 2px gold solid;
+    cursor:grab;
+}
+
+/*  TAROT  */
+
+.card{
+    height: 25dvh;
+    width: 10dvw;
+    border: 2px black solid;
+    position: fixed;
+}
+#card0 {
+    top: 40dvh;
+}
+#card1 {
+    top: 40dvh;
+}
+#card2 {
+    top: 40dvh;
+}
+.prediction{
+
+    height: fit-content;
+    width: 20dvw;
+    padding-top: 2dvh;
+    padding-bottom: 2dvh;
+    padding-left: 1dvw;
+    padding-right: 1dvw;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px black solid;
+    border-radius: 5px;
+    top: 40dvh;
+    text-align: center;
+    font-size: 1.5dvw;
+}
+
+/*  FUTURE READING  */
+
+#crystal{
+    position: fixed;
+    top: 40dvh;
+    height: 14dvh;
+    width: 9dvw;
+    right: 43dvw;
+
+}
+
+
+
+
+
+
+
+
