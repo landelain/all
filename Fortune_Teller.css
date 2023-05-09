@@ -20,24 +20,7 @@ img {
     z-index: 10;
     display: inline-block;
 }
-#lobby_button{
-    background-color: rgba(189, 124, 18, 0.3);
-    border: 2px black solid;
-    border-radius: 5px;
-    margin-top: 85dvh;
-    margin-left: 2dvw;
-    height: fit-content;
-    width: 15dvw;
-    position: fixed;
-    text-align: center;
-    padding-top: 3dvh;
-    padding-bottom: 3dvh;
-    color: black;
-    font-size: 2dvw;
-}
-#lobby_button:hover {
-    background-color: rgba(189, 124, 18, 0.45);
-}
+
 
 /*  CHOICE  */
 
