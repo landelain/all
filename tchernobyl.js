@@ -494,7 +494,6 @@ function modesoiree (event) {
     
 }
 function cheat (event) {
-    console.clear()
     console.log('this one')
 }
 function sleep(milliseconds) {
